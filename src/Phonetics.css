@@ -1,12 +1,23 @@
+.Phonetics {
+  height: 35px;
+}
+
 .Phonetics a {
   text-decoration: none;
-  border: 1px solid #000;
+  border: 1px solid rgb(28, 27, 27);
   border-radius: 5px;
+  font-size: 14px;
   padding: 5px 10px;
-  margin-bottom: 5px;
-  line-height: 2.25;
+  transition: all 150ms ease-in-out;
 }
 
 .Phonetics a:hover {
   text-decoration: none;
+  background-color: blueviolet;
+  color: #fff;
+}
+
+.Phonetics .text {
+  font-size: 14px;
+  opacity: 0.8;
 }

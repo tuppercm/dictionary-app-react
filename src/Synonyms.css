@@ -1,5 +1,11 @@
+.Synonymns {
+  margin: 10px 0;
+  padding: 0;
+}
+
 .Synonymns li {
   display: inline-block;
   list-style: none;
-  margin-right: 20px;
+  padding-right: 15px;
+  font-size: 14px;
 }

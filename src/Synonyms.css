@@ -1,0 +1,5 @@
+.Synonymns li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 20px;
+}

@@ -1,0 +1,12 @@
+.Phonetics a {
+  text-decoration: none;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  line-height: 2.25;
+}
+
+.Phonetics a:hover {
+  text-decoration: none;
+}

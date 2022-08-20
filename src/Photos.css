@@ -1,0 +1,11 @@
+.Photos img {
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.photo-credit {
+  display: block;
+  font-size: 12px;
+  font-style: italic;
+  margin-top: 20px;
+}

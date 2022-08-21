@@ -3,22 +3,24 @@
 }
 
 .Phonetics a {
-  text-decoration: none;
-  border: 1px solid rgb(28, 27, 27);
+  background-color: #d45d79;
+  border: 1px solid #6e5773;
   border-radius: 5px;
-  font-size: 16px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
   margin-right: 10px;
   padding: 2px 4px;
+  text-decoration: none;
   transition: all 150ms ease-in-out;
 }
 
 .Phonetics a:hover {
-  text-decoration: none;
-  background-color: blueviolet;
-  color: #fff;
+  background-color: white;
+  color: #d45d79;
 }
 
 .Phonetics .text {
-  font-size: 16px;
+  font-size: 15px;
   opacity: 0.8;
 }

@@ -1,6 +1,11 @@
 .Results h2 {
+  color: #41d3bd;
   font-style: italic;
-  line-height: 1.5;
+  font-weight: bold;
   margin-bottom: 15px;
-  opacity: 0.8;
+}
+
+.Results h3 {
+  color: #6e5773;
+  font-size: 26px;
 }

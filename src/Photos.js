@@ -15,7 +15,7 @@ export default function Photos(props) {
                   href={photo.src.original}
                   target="_blank"
                   rel="noreferrer"
-                  title={`Photographer: ${photo.photographer}`}
+                  title={`Pexels | Photographer: ${photo.photographer}`}
                 >
                   <img
                     src={photo.src.landscape}
@@ -27,15 +27,6 @@ export default function Photos(props) {
             );
           })}
         </div>
-
-        <a
-          className="photo-credit"
-          href="https://www.pexels.com"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Photos provided by Pexels
-        </a>
       </section>
     );
   } else {

@@ -7,6 +7,12 @@
   max-width: 800px;
 }
 
+.Dictionary h1 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
 .Dictionary input {
   border-radius: 7px;
   border: 1px solid #757575;
@@ -16,7 +22,20 @@
   color: #757575;
 }
 
-.Dictionary h1 {
-  font-size: 18px;
-  margin-bottom: 15px;
+.Dictionary button {
+  background-color: blueviolet;
+  border-radius: 7px;
+  border: 1px solid #757575;
+  color: #fff;
+  padding: 5px 10px;
+  width: 100%;
+  transition: all 150ms ease-in-out;
+}
+
+.Dictionary button:hover {
+  background-color: white;
+  border-radius: 7px;
+  border: 1px solid #757575;
+  padding: 5px 10px;
+  width: 100%;
 }

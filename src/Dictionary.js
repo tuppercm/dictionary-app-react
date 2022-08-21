@@ -51,7 +51,7 @@ export default function Dictionary(props) {
     return (
       <div className="Dictionary">
         <section>
-          <h1>What word would you like to learn about today?</h1>
+          <h1>What word would you like to learn more about today?</h1>
           <form onSubmit={handleSubmit}>
             <div className="row">
               <div className="col-9">
@@ -63,7 +63,7 @@ export default function Dictionary(props) {
                 />
               </div>
               <div className="col-3">
-                <button type="submit" className="btn btn-primary">
+                <button type="submit" className="btn">
                   Submit
                 </button>
               </div>

@@ -4,10 +4,10 @@ import "./App.css";
 export default function App() {
   return (
     <div className="App">
-      <main>
-        <Dictionary defaultKeyword="hello" />
+      <main className="app-background">
+        <Dictionary defaultKeyword="knowledge" />
       </main>
-      <footer>
+      <footer className="text-center">
         Coded by Caitlin Tupper,{" "}
         <a
           href="https://github.com/tuppercm/dictionary-app-react"
@@ -26,6 +26,11 @@ export default function App() {
         >
           Netlify
         </a>
+        . Photos provided by{" "}
+        <a href="https://www.pexels.com" target="_blank" rel="noreferrer">
+          Pexels
+        </a>
+        .
       </footer>
     </div>
   );

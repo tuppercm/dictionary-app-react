@@ -14,19 +14,6 @@
   text-align: center;
 }
 
-.Dictionary .word {
-  background-color: #f8f6f1;
-  padding: 10px;
-  border-radius: 7px;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
-  color: #3891a6;
-  font-size: 24px;
-  font-style: italic;
-  margin: 20px auto;
-  max-width: 800px;
-  text-align: center;
-}
-
 .Dictionary input {
   border: 1px solid #6e5773;
   border-radius: 5px;
@@ -50,4 +37,17 @@
   background-color: white;
   border: 1px solid #6e5773;
   color: #d45d79;
+}
+
+.Dictionary .word {
+  background-color: #f8f6f1;
+  padding: 10px;
+  border-radius: 7px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+  color: #3891a6;
+  font-size: 24px;
+  font-style: italic;
+  margin: 20px auto;
+  max-width: 800px;
+  text-align: center;
 }

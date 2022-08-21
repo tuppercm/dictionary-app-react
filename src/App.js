@@ -27,7 +27,12 @@ export default function App() {
           Netlify
         </a>
         . Photos provided by{" "}
-        <a href="https://www.pexels.com" target="_blank" rel="noreferrer">
+        <a
+          href="https://www.pexels.com"
+          title="Pexels"
+          target="_blank"
+          rel="noreferrer"
+        >
           Pexels
         </a>
         .

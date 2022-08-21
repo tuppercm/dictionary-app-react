@@ -1,11 +1,11 @@
-footer {
+.App footer {
   font-family: "Courier New", Courier, monospace;
   font-size: 12px;
   margin-bottom: 30px;
   margin-top: 10px;
 }
 
-.app-background {
+.App .app-background {
   background-image: url(https://images.pexels.com/photos/1479120/pexels-photo-1479120.jpeg);
   background-repeat: no-repeat;
   background-size: cover;

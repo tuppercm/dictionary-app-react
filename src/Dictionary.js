@@ -33,7 +33,7 @@ export default function Dictionary(props) {
   }
 
   function search() {
-    // Documentation: https://dictionaryapi.dev/
+    // API documentation: https://dictionaryapi.dev/
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
     axios.get(apiUrl).then(handleDictionaryResponse);
 
@@ -42,7 +42,7 @@ export default function Dictionary(props) {
 
     let headers = { Authorization: `Bearer ${pexelsApiKey}` };
 
-    // Documentation: https://www.pexels.com/api/documentation
+    // API documentation: https://www.pexels.com/api/documentation
     let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=6`;
     axios.get(pexelsApiUrl, { headers: headers }).then(handlePexelsResponse);
   }
@@ -63,9 +63,7 @@ export default function Dictionary(props) {
                 />
               </div>
               <div className="col-3">
-                <button type="submit" className="btn">
-                  Search
-                </button>
+                <button type="submit">Search</button>
               </div>
             </div>
           </form>

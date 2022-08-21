@@ -22,20 +22,6 @@ export default function Phonetics(props) {
         <span className="text">{props.phonetics.text}</span>
       </div>
     );
-  } else if (props.phonetics.audio) {
-    return (
-      <div className="Phonetics">
-        {" "}
-        <a
-          href={props.phonetics.audio}
-          target="_blank"
-          rel="noreferrer"
-          title="Listen"
-        >
-          ▶️
-        </a>
-      </div>
-    );
   } else {
     return null;
   }

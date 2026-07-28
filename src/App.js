@@ -8,16 +8,16 @@ export default function App() {
         <Dictionary defaultKeyword="literacy" />
       </main>
       <footer className="text-center">
-        Coded by Caitlin Tupper,{" "}
+        Coded by Caitlin Tupper, open-sourced on{" "}
         <a
           href="https://github.com/tuppercm/dictionary-app-react"
           title="GitHub repository"
           target="_blank"
           rel="noreferrer"
         >
-          open-sourced on Github
-        </a>{" "}
-        and hosted on{" "}
+          Github
+        </a>
+        , and hosted on{" "}
         <a
           href="https://vermillion-cupcake-044708.netlify.app/"
           title="Netlify"
@@ -26,7 +26,7 @@ export default function App() {
         >
           Netlify
         </a>
-        . Photos provided by{" "}
+        . Images provided by{" "}
         <a
           href="https://www.pexels.com"
           title="Pexels"
